@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var iframeEle = document.getElementsByTagName("iframe");
+            iframeEle.contentWindow.document.title;
+        }
+    </script>
+</head>
+<body>
+<iframe src="http://huanghaiyun.cn:30015" allowfullscreen="true" allow="microphone; camera"></iframe>
+</body>
+</html>
